@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "RTS Blog"
+title = "Real-Time Systems Blog"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "Mainroad"
