@@ -8,7 +8,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author]
   name = "Xiaotian Dai"
-  bio = "Researcher in Real-Time and Embedded Systems."
+  bio = "Real-Time and Embedded Systems researcher at the University of York."
   avatar = "img/avatar.png"
 
 [Params]
