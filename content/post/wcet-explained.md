@@ -18,7 +18,6 @@ tags:
 #menu: main # Optional, add page to a menu. Options: main, side, footer
 ---
 
-
 *Worst-case Execution Time (WCET)*, refers to the upper bound on the execution time of a piece of program. In hard real-time systems, where the timing requirement is stringent, WCET is needed for the purpose of validation to show that the scheduler can safely schedule the designed system even under extreme conditions.
 
 Current research on WCET provide two approaches: (1) static analysis and (2) measurement-based analysis. Static method uses only the source code or the assembly code as its input and calculate the WCET based on an abstract model of the processor. While for measurement-based method, the execution time of each basic block is measured and the results by many experiments are then combined to calculate an execution bound.

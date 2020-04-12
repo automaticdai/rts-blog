@@ -8,7 +8,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author]
   name = "Xiaotian Dai"
-  bio = "Real-Time and Embedded Systems researcher at the University of York."
+  bio = "Real-time and embedded systems researcher, University of York, UK."
   avatar = "img/avatar.png"
 
 [Params]
@@ -29,14 +29,16 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   PygmentsCodeFences = true
   PygmentsStyle = "monokai"
-  custom_css = ["layouts/custom.css"]
+  customCss = ["css/custom.css"]
+  #customJS = ["js/custom.js"] # Include custom JS files
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
   list = "right"   # Configure layout for list pages
-  single = false # Configure layout for single pages
+  single = false   # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist", "social"]
+  #["search", "recent", "categories", "taglist", "social", "languages"]
+  widgets = ["search", "taglist", "categories", "recent", "social"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
@@ -53,3 +55,8 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   #bitbucket = "username"
   email = "automatic.dai@gmail.com"
   #google_plus = "profileid"
+
+# [[Params.widgets.social.custom]]
+#   title = "My Profile"
+#   url = "http://xiaotiandai.com"
+#   icon = "homepage.svg" # Optional. Path relative to "layouts/partials"
