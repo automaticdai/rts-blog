@@ -1,5 +1,5 @@
 ---
-title: "To Use Real-Time Operating System or Not"
+title: "To or Not To Use a Real-Time Operating System"
 date: 2020-04-11T17:22:13+01:00
 description: "Example article description"
 draft: true
@@ -13,7 +13,9 @@ mathjax: true # Optional, enable MathJax for specific post
 categories:
   - "Real-Time Systems"
 tags:
+  - "Design"
   - "RTOS"
+
 #menu: main # Optional, add page to a menu. Options: main, side, footer
 ---
 
@@ -21,19 +23,17 @@ The most often question I have being asked in real-time systesm is: *should I us
 
 Generally speaking, it is not a simple yes or no question. It is really dependent on two things: (1) Do you have complicate function requirement? and (2) Do you have timing requirement?
 
-## Performance
+## What is a RTOS?
 
 
-## Data
+## OS vs Bare-metal
 
 
-## Parallel Consideration
+## General Purpose OS vs RTOS
 
-### Hey Sira
 
-#### This is true
 
-##### Unbelievable
+
 Generally speaking, the performance is dependent on your definition, so it is case-by-case.
 in terms of ‘general performance’ which is the processing time and average throughput, using RTOS will hardly make any difference;
 in terms of response time, using RTOS can improve the worst-case and thus make the response time more consistent;

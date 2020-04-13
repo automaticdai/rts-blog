@@ -1,10 +1,10 @@
 ---
-title: "Worst-case Execution Time Explained"
+title: "Worst-Case Execution Time Explained"
 date: "2020-04-08T17:20:46+01:00"
 description: "Example article description"
 draft: false
 
-#thumbnail: "img/placeholder.jpg" # Optional, thumbnail
+thumbnail: "/img/wcet.png" # Optional, thumbnail
 #lead: "Example lead - highlighted near the title"
 disable_comments: false # Optional, disable Disqus comments if true
 authorbox: true # Optional, enable authorbox for specific post
@@ -13,7 +13,7 @@ mathjax: true # Optional, enable MathJax for specific post
 categories:
   - "Real-Time Systems"
 tags:
-  - "RTS"
+  - "Basics"
   - "WCET"
 #menu: main # Optional, add page to a menu. Options: main, side, footer
 ---

@@ -4,7 +4,7 @@ date: "2015-03-02T01:54:46+01:00"
 description: "Example article description"
 draft: false
 
-#thumbnail: "img/placeholder.jpg" # Optional, thumbnail
+thumbnail: "/img/a380.jpg" # Optional, thumbnail
 #lead: "Example lead - highlighted near the title"
 disable_comments: false # Optional, disable Disqus comments if true
 authorbox: true # Optional, enable authorbox for specific post
@@ -13,7 +13,7 @@ mathjax: true # Optional, enable MathJax for specific post
 categories:
   - "Real-Time Systems"
 tags:
-  - "RTS"
+  - "Basics"
   - "Scheduling"
 #menu: main # Optional, add page to a menu. Options: main, side, footer
 ---

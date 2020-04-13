@@ -4,7 +4,7 @@ date: "2015-04-13T01:54:46+01:00"
 description: "Example article description"
 draft: false
 
-#thumbnail: "img/placeholder.jpg" # Optional, thumbnail
+thumbnail: "/img/real-time-spectrum.jpg" # Optional, thumbnail
 #lead: "Example lead - highlighted near the title"
 disable_comments: false # Optional, disable Disqus comments if true
 authorbox: true # Optional, enable authorbox for specific post
@@ -13,7 +13,7 @@ mathjax: true # Optional, enable MathJax for specific post
 categories:
   - "Real-Time Systems"
 tags:
-  - "RTS"
+  - "Basics"
 #menu: main # Optional, add page to a menu. Options: main, side, footer
 ---
 
@@ -27,7 +27,7 @@ When it comes to soft real-time systems, the deadline could be missed occasional
 Since hard real-time systems require a high level of predictability, the specification is often given in a *deterministic* way. On the other hand, the timing specification of a soft real-time system is often defined in a *statistical* form, e.g., the probabilistic of deadline misses is less than 1%.
 The high requirement of temporal behavior of hard real-time systems poses a great challenge in designing such systems. Many restrictions should be imposed on the design of the software, as well as the hardware architecture. Formal methods should also be used to prove the system could work properly under any possible conditions without any deadline miss.
 
-In reality, not all systems can be identified as either soft or hard real-time systems. In these circumstances, the system can be separated into the hard and the soft sub-systems and be designed and verified separately, in order to meet their own specifications.
+In reality, not all systems can be identified as either soft or hard real-time systems. Sometimes, a system can be identified as a *firm* real-time systems if missing one deadline will cause discard of the job instance but will not cause critical failures. In other circumstances, the system can be separated into the hard and the soft sub-systems and be separately designed and verified, in order to meet their own specifications.
 
 
 ## Reference

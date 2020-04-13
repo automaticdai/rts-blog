@@ -13,6 +13,7 @@ mathjax: true # Optional, enable MathJax for specific post
 categories:
   - "Real-Time Systems"
 tags:
+  - "Basics"
   - "Multicore"
   - "Multiprogramming"
 #menu: main # Optional, add page to a menu. Options: main, side, footer
