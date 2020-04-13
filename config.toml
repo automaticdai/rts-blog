@@ -8,7 +8,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author]
   name = "Xiaotian Dai"
-  bio = "Real-time and embedded systems researcher, University of York, UK."
+  bio = "Real-time and embedded systems researcher. University of York, UK."
   avatar = "img/avatar.png"
 
 [Params]
@@ -38,7 +38,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   single = false   # Configure layout for single pages
   # Enable widgets in given order
   #["search", "recent", "categories", "taglist", "social", "languages"]
-  widgets = ["search", "taglist", "categories", "recent", "social"]
+  widgets = ["categories", "taglist", "recent", "social"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
