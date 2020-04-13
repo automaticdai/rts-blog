@@ -4,7 +4,7 @@ date: "2015-04-13T01:54:46+01:00"
 description: "Example article description"
 draft: false
 
-thumbnail: "/img/real-time-spectrum.jpg" # Optional, thumbnail
+thumbnail: "/img/cover-real-time-types.jpg" # Optional, thumbnail
 #lead: "Example lead - highlighted near the title"
 disable_comments: false # Optional, disable Disqus comments if true
 authorbox: true # Optional, enable authorbox for specific post
