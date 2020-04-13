@@ -1,10 +1,10 @@
 ---
-title: "To Use or Not to Use an RTOS?"
+title: "To Use an RTOS or Not?"
 date: 2020-04-13T12:22:13+01:00
 description: "Example article description"
 draft: false
 
-#thumbnail: "img/placeholder.jpg" # Optional, thumbnail
+thumbnail: "/img/cover-rtos.jpg" # Optional, thumbnail
 #lead: "Example lead - highlighted near the title"
 disable_comments: false # Optional, disable Disqus comments if true
 authorbox: true # Optional, enable authorbox for specific post
