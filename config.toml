@@ -4,7 +4,7 @@ languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "Mainroad"
 disqusShortname = "xdaiblog" # Enable comments by entering your Disqus shortname
-googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+googleAnalytics = "UA-60989638-3" # Enable Google Analytics by entering your tracking id
 
 [Author]
   name = "Xiaotian Dai"
