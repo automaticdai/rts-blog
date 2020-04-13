@@ -1,5 +1,5 @@
 ---
-title: "Real-Time Systems Conferences and Journals List"
+title: "Real-Time and Embedded Systems Conferences and Journals List"
 date: 2020-04-13T01:06:28+01:00
 draft: false
 
