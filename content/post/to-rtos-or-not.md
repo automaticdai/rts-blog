@@ -1,7 +1,7 @@
 ---
 title: "To Use an RTOS or Not?"
 date: 2020-04-13T12:22:13+01:00
-description: "Example article description"
+description: "Explain the most asked real-time systems myth."
 draft: false
 
 thumbnail: "/img/cover-rtos.jpg" # Optional, thumbnail
