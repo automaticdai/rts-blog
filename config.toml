@@ -7,12 +7,12 @@ disqusShortname = "xdaiblog" # Enable comments by entering your Disqus shortname
 googleAnalytics = "UA-60989638-3" # Enable Google Analytics by entering your tracking id
 
 [Author]
-  name = "Xiaotian Dai"
-  bio = "Real-time and embedded systems researcher. University of York, UK."
+  name = "Dr. Xiaotian Dai"
+  bio = "Computer Scienstist in Real-time and Embedded Systems. University of York, UK."
   avatar = "img/avatar.png"
 
 [Params]
-  subtitle = "Everything about Real-Time and Embedded Systems." # Subtitle of your site
+  subtitle = "Everything about Real-Time and Embedded Systems with Dr. Xiaotian Dai." # Subtitle of your site
   description = "" # Description of your site
   copyright = "Xiaotian Dai" # copyright holder, otherwise will use site title
   opengraph = true
@@ -47,7 +47,7 @@ googleAnalytics = "UA-60989638-3" # Enable Google Analytics by entering your tra
 [Params.widgets.social]
   # Enable parts of social widget
   #facebook = "username"
-  twitter = "steven_xdai"
+  twitter = "StevenXDai"
   linkedin = "xdai3"
   #telegram = "username"
   github = "automaticdai"
@@ -55,19 +55,3 @@ googleAnalytics = "UA-60989638-3" # Enable Google Analytics by entering your tra
   #bitbucket = "username"
   email = "automatic.dai@gmail.com"
   #google_plus = "profileid"
-
-  [menu]
-
-    [[menu.main]]
-      identifier = "About"
-      name = "about"
-      pre = "<i class='fa fa-heart'></i>"
-      url = "http://www.xiaotiandai.com"
-      weight = -90
-
-    [[menu.main]]
-      identifier = "Blog"
-      name = "blog"
-      pre = "<i class='fa fa-road'></i>"
-      url = "/"
-      weight = -100

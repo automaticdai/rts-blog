@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Feedback Scheduling"
+title: "A Short Introduction to Feedback Scheduling"
 date: 2018-11-30T23:22:13+01:00
 description: "Example article description"
 draft: false
