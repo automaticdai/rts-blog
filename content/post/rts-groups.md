@@ -18,9 +18,9 @@ tags:
 
 > A collection of all research labs around the world that work on real-time and embedded systems (RTES).
 
-## Research Groups in Europe
+## RTS Research Groups in Europe
 
-- [Real-Time Systems Research Group](http://www.cs.york.ac.uk/rts/), University of York (York, UK)
+- [Real-Time and Distributed Systems Research Group](http://www.cs.york.ac.uk/rts/), University of York (York, UK)
 - [ReTis Lab – Real-Time Systems Laboratory](http://retis.sssup.it/?q=node/2), Sant'Anna School of Advanced Studies (Pisa, Italy)
 - [CISTER: Research Centre in Real-Time Computing Systems](http://www.cister.isep.ipp.pt/) (Porto, Portugal)
 - [Real-Time Systems Research Group](http://www.vmars.tuwien.ac.at/) (Vienna, Austria)
@@ -30,14 +30,14 @@ tags:
 - [Real-Time and Embedded Systems Group at MPI-SWS](http://rts.mpi-sws.org/) (Saarbrücken, Germany)
 
 
-## Research Groups in America
+## RTS Research Groups in US
 
 - [Networked Real-Time and Embedded Systems Laboratory](http://rtsl.cs.uiuc.edu/), University of Illinois (USA)
 - [Real-Time Systems Group](http://www.cs.unc.edu/~anderson/real-time/index.html), University of North Carolina (USA)
 - [Cyber-Physical Systems Lab](http://wsn.cse.wustl.edu/index.php/Cyber-Physical_Systems_Laboratory), Washington University in St. Louis (USA)
 
 
-## Research Groups in Asia
+## RTS Research Groups in Asia
 
 - [Timing Analysis Group](http://www.comp.nus.edu.sg/~abhik/e-savvy/WCET_projects.html), National University of Singapore (Singapore)
 

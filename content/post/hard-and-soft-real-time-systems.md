@@ -1,5 +1,5 @@
 ---
-title: "Hard Real-Time and Soft Real-Time Systems"
+title: "Hard Real-Time v.s. Soft Real-Time Systems"
 date: "2015-04-13T01:54:46+01:00"
 description: "Example article description"
 draft: false
@@ -13,7 +13,7 @@ mathjax: true # Optional, enable MathJax for specific post
 categories:
   - "Real-Time Systems"
 tags:
-  - "Basics"
+  - "RTS 101"
 #menu: main # Optional, add page to a menu. Options: main, side, footer
 ---
 

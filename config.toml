@@ -8,11 +8,31 @@ googleAnalytics = "UA-60989638-3" # Enable Google Analytics by entering your tra
 
 [Author]
   name = "Dr. Xiaotian Dai"
-  bio = "Computer Scientist in Real-time and Embedded Systems. University of York, UK."
+  bio = "Researcher in Real-time Systems. Department of Computer Science. University of York, UK."
   avatar = "img/avatar.png"
 
+[menu]
+  [[menu.main]]
+    identifier = 'homepage'
+    name = 'Homepage'
+    pre = "<i class='fa fa-heart'></i>"
+    url = '/'
+    weight = -110
+  [[menu.main]]
+    name = 'RTS 101'
+    post = "<span class='alert'></span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = '/tags/rts-101/'
+    weight = -100
+  [[menu.main]]
+    name = 'Research'
+    post = "<span class='alert'></span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = '/tags/research/'
+    weight = -90
+    
 [Params]
-  subtitle = "Everything about Real-Time and Embedded Systems." # Subtitle of your site
+  subtitle = "Everything about Real-Time Systems." # Subtitle of your site
   description = "" # Description of your site
   copyright = "Xiaotian Dai" # copyright holder, otherwise will use site title
   opengraph = true
@@ -42,7 +62,7 @@ googleAnalytics = "UA-60989638-3" # Enable Google Analytics by entering your tra
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
-  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+  tags_counter = true # Enable counter for each tag in "Tags" widget (disabled by default)
 
 [Params.widgets.social]
   # Enable parts of social widget
@@ -55,3 +75,14 @@ googleAnalytics = "UA-60989638-3" # Enable Google Analytics by entering your tra
   #bitbucket = "username"
   email = "automatic.dai@gmail.com"
   #google_plus = "profileid"
+  
+[[Params.widgets.social.custom]]
+  title = "Homepage of Dr. Dai"
+  url = "https://www.xiaotiandai.com"
+  
+[markup]
+    [markup.tableOfContents]
+      endLevel = 2
+      startLevel = 1
+    [markup.highlight]
+      style = "dracula"

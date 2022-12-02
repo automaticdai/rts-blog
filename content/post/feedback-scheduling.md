@@ -14,7 +14,7 @@ categories:
   - "Real-Time Systems"
 tags:
   - "Theory"
-  - "Feedback Scheduling"
+  - "Research"
 #menu: main # Optional, add page to a menu. Options: main, side, footer
 ---
 

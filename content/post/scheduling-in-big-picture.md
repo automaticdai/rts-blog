@@ -13,8 +13,8 @@ mathjax: true # Optional, enable MathJax for specific post
 categories:
   - "Real-Time Systems"
 tags:
-  - "Basics"
-  - "Scheduling"
+  - "RTS 101"
+  - "Research"
 #menu: main # Optional, add page to a menu. Options: main, side, footer
 ---
 

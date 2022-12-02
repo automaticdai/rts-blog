@@ -1,5 +1,5 @@
 ---
-title: "To Use an RTOS or Not?"
+title: "To Use an RTOS in Your System or Not?"
 date: 2020-04-13T12:22:13+01:00
 description: "Explain the most asked real-time systems myth."
 draft: false
