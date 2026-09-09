@@ -1,21 +1,13 @@
 ---
 title: "A Short Introduction to Feedback Scheduling"
 date: 2018-11-30T23:22:13+01:00
-description: "Example article description"
 draft: false
-
-#thumbnail: "img/placeholder.jpg" # Optional, thumbnail
-#lead: "Example lead - highlighted near the title"
-disable_comments: false # Optional, disable Disqus comments if true
-authorbox: true # Optional, enable authorbox for specific post
-toc: false # Optional, enable Table of Contents for specific post
-mathjax: true # Optional, enable MathJax for specific post
+description: "Why fixed-priority and EDF scheduling struggle under uncertain workloads, and how feedback scheduling adapts task parameters at run time."
 categories:
   - "Real-Time Systems"
 tags:
   - "Theory"
   - "Research"
-#menu: main # Optional, add page to a menu. Options: main, side, footer
 ---
 
 Fixed-Priority Scheduling (FPS) and Earliest-Deadline-First (EDF) are the two dominating scheduling algorithms in real-time systems [1]. Over the last few decades, the industry has migrated from using time-triggered cyclic-executives into these more advanced priority-based methods.

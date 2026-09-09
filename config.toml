@@ -1,89 +1,126 @@
-baseurl = "/"
+baseURL = "https://automaticdai.github.io/rts-blog/"
+locale = "en-us"
+defaultContentLanguage = "en"
+hasCJKLanguage = false
 title = "Real-Time Systems Blog"
-languageCode = "en-us"
-theme = "Mainroad"
-disqusShortname = "xdaiblog" # Enable comments by entering your Disqus shortname
+theme = "hugo-theme-stack"
+
+enableRobotsTXT = true
+
+# NOTE: deliberately no [permalinks] block. Stack's demo config remaps
+# post -> /p/:slug/, which would break every existing /post/<slug>/ URL.
 
 [pagination]
-  pagerSize = 10 # Number of posts per page
+  pagerSize = 20 # show all posts on one page
 
-[menu]
-  [[menu.main]]
-    identifier = 'homepage'
-    name = 'Homepage'
-    pre = "<i class='fa fa-heart'></i>"
-    url = '/'
-    weight = -110
-  [[menu.main]]
-    name = 'RTS 101'
-    post = "<span class='alert'></span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = '/tags/rts-101/'
-    weight = -100
-  [[menu.main]]
-    name = 'Research'
-    post = "<span class='alert'></span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = '/tags/research/'
-    weight = -90
-    
-[Params]
-  subtitle = "Everything about Real-Time Systems." # Subtitle of your site
-  description = "" # Description of your site
-  copyright = "Xiaotian Dai" # copyright holder, otherwise will use site title
-  opengraph = true
-  twitter_cards = false
-  readmore = false # Show "Read more" button in list if true
-  authorbox = true
-  toc = true
-  post_navigation = true
-  post_meta = ["date", "categories"] # Order of post meta information. Use ["none"] to turn off completely.
-  postSections = ["post", "blog", "news"] # alternative that shows more than one section's pages
-  dateformat = "2006-01-02" # change the format of dates
-  mathjax = true # Enable MathJax
-  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
-  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
-  PygmentsCodeFences = true
-  PygmentsStyle = "monokai"
-  customCss = ["css/custom.css"]
-  #customJS = ["js/custom.js"] # Include custom JS files
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
-[Params.author]
-  name = "Dr Steven Xiaotian Dai"
-  bio = "Senior Lecturer in Real-Time Systems, Department of Computer Science, University of York, UK. Contact: [xiaotian.dai@york.ac.uk](mailto:xiaotian.dai@york.ac.uk)"
-  avatar = "img/avatar.png"
+[params]
+  mainSections = ["post"]
+  featuredImageField = "image"
+  rssFullContent = true
+  favicon = "/favicon.ico"
 
-[Params.sidebar]
-  home = "right"   # Configure layout for home page
-  list = "right"   # Configure layout for list pages
-  single = false   # Configure layout for single pages
-  # Enable widgets in given order
-  #["search", "recent", "categories", "taglist", "social", "languages"]
-  widgets = ["categories", "taglist", "recent", "social"]
+  [params.footer]
+    since = 2015
+    customText = ""
 
-[Params.widgets]
-  recent_num = 5 # Set the number of articles in the "Recent articles" widget
-  tags_counter = true # Enable counter for each tag in "Tags" widget (disabled by default)
+  [params.dateFormat]
+    published = "2006-01-02"
+    lastUpdated = "2006-01-02"
 
-[Params.widgets.social]
-  # Enable parts of social widget
-  #facebook = "username"
-  twitter = "StevenXDai"
-  linkedin = "xdai3"
-  #telegram = "username"
-  github = "automaticdai"
-  #gitlab = "username"
-  #bitbucket = "username"
-  email = "automatic.dai@gmail.com"
-  #google_plus = "profileid"
-  
-[[Params.widgets.social.custom]]
-  title = "Homepage of Dr. Dai"
-  url = "https://www.xiaotiandai.com"
-  
+  [params.sidebar]
+    subtitle = "Everything about Real-Time Systems. Written by Dr Steven Xiaotian Dai, Senior Lecturer in Real-Time Systems, University of York."
+    avatar = "img/avatar.png"
+
+  [params.article]
+    math = false # enabled per-post via `math: true`
+    toc = true
+    readingTime = true
+    [params.article.license]
+      enabled = false
+
+  [params.comments]
+    enabled = false
+
+  [[params.widgets.homepage]]
+    type = "search"
+  [[params.widgets.homepage]]
+    type = "categories"
+    [params.widgets.homepage.params]
+      limit = 10
+  [[params.widgets.homepage]]
+    type = "tag-cloud"
+    [params.widgets.homepage.params]
+      limit = 10
+  [[params.widgets.homepage]]
+    type = "archives"
+    [params.widgets.homepage.params]
+      limit = 8
+
+  [[params.widgets.page]]
+    type = "toc"
+
+  [params.opengraph.twitter]
+    site = "StevenXDai"
+    card = "summary_large_image"
+
+  [params.colorScheme]
+    toggle = true
+    default = "auto"
+
+  [params.imageProcessing.cover]
+    enabled = true
+  [params.imageProcessing.content]
+    enabled = true
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = -100
+  [menu.main.params]
+    icon = "home"
+
+[[menu.social]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/automaticdai"
+  [menu.social.params]
+    icon = "brand-github"
+
+[[menu.social]]
+  identifier = "linkedin"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/xdai3"
+  [menu.social.params]
+    icon = "brand-linkedin"
+
+[[menu.social]]
+  identifier = "twitter"
+  name = "Twitter"
+  url = "https://twitter.com/StevenXDai"
+  [menu.social.params]
+    icon = "brand-twitter"
+
+[[menu.social]]
+  identifier = "email"
+  name = "Email"
+  url = "mailto:xiaotian.dai@york.ac.uk"
+  [menu.social.params]
+    icon = "mail"
+
 [markup]
-    [markup.tableOfContents]
-      endLevel = 2
-      startLevel = 1
-    [markup.highlight]
-      style = "dracula"
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true

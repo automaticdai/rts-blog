@@ -1,21 +1,14 @@
 ---
 title: "Worst-Case Execution Time Explained"
 date: "2020-04-08T17:20:46+01:00"
-description: "Example article description"
 draft: false
-
-thumbnail: "img/wcet.png" # Optional, thumbnail
-#lead: "Example lead - highlighted near the title"
-disable_comments: false # Optional, disable Disqus comments if true
-authorbox: true # Optional, enable authorbox for specific post
-toc: false # Optional, enable Table of Contents for specific post
-mathjax: true # Optional, enable MathJax for specific post
+description: "What worst-case execution time means, why hard real-time systems need it, and how static and measurement-based analysis differ."
 categories:
   - "Real-Time Systems"
 tags:
   - "RTS 101"
   - "WCET"
-#menu: main # Optional, add page to a menu. Options: main, side, footer
+image: "cover.png"
 ---
 
 *Worst-case Execution Time (WCET)*, refers to the upper bound on the execution time of a piece of program. In hard real-time systems, where the timing requirement is stringent, WCET is needed for the purpose of validation to show that the scheduler can safely schedule the designed system even under extreme conditions.

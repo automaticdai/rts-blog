@@ -2,18 +2,11 @@
 title: "Real-Time and Embedded Systems Research Groups"
 date: 2020-04-13T11:06:28+01:00
 draft: false
-
-#thumbnail: "img/placeholder.jpg" # Optional, thumbnail
-#lead: "Example lead - highlighted near the title"
-disable_comments: false # Optional, disable Disqus comments if true
-authorbox: true # Optional, enable authorbox for specific post
-toc: false # Optional, enable Table of Contents for specific post
-mathjax: true # Optional, enable MathJax for specific post
+description: "A directory of real-time and embedded systems research groups across Europe, the US and Asia."
 categories:
   - "Real-Time Systems"
 tags:
   - "Research"
-#menu: main # Optional, add page to a menu. Options: main, side, footer
 ---
 
 > A collection of all research labs around the world that work on real-time and embedded systems (RTES).

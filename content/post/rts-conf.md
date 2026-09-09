@@ -2,18 +2,11 @@
 title: "Real-Time Systems Conferences and Journals"
 date: 2022-05-28T01:06:28+01:00
 draft: false
-
-#thumbnail: "img/placeholder.jpg" # Optional, thumbnail
-#lead: "Example lead - highlighted near the title"
-disable_comments: false # Optional, disable Disqus comments if true
-authorbox: true # Optional, enable authorbox for specific post
-toc: false # Optional, enable Table of Contents for specific post
-mathjax: true # Optional, enable MathJax for specific post
+description: "A curated list of real-time systems conferences and journals, with CORE rankings."
 categories:
   - "Real-Time Systems"
 tags:
   - "Research"
-#menu: main # Optional, add page to a menu. Options: main, side, footer
 ---
 
 > This post is a collection of real-time systems related conferences and journals that I am aware of. The rank is based on Core, where A* means the top recognised in the related topic.

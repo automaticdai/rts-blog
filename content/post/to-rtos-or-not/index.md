@@ -1,22 +1,14 @@
 ---
 title: "To Use an RTOS in Your System or Not?"
 date: 2020-04-13T12:22:13+01:00
-description: "Explain the most asked real-time systems myth."
 draft: false
-
-thumbnail: "img/cover-rtos.jpg" # Optional, thumbnail
-#lead: "Example lead - highlighted near the title"
-disable_comments: false # Optional, disable Disqus comments if true
-authorbox: true # Optional, enable authorbox for specific post
-toc: false # Optional, enable Table of Contents for specific post
-mathjax: true # Optional, enable MathJax for specific post
+description: "Explain the most asked real-time systems myth."
 categories:
   - "Real-Time Systems"
 tags:
   - "Design"
   - "RTOS"
-
-#menu: main # Optional, add page to a menu. Options: main, side, footer
+image: "cover.jpg"
 ---
 
 > *Should I use an RTOS in my project or not?*
