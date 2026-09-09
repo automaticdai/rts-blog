@@ -33,6 +33,7 @@ enableRobotsTXT = true
   [params.sidebar]
     subtitle = "Everything about Real-Time Systems. Written by Dr Steven Xiaotian Dai, Senior Lecturer in Real-Time Systems, University of York."
     avatar = "img/avatar.png"
+    avatarLink = "https://www.xiaotiandai.com"
 
   [params.article]
     math = false # enabled per-post via `math: true`
@@ -82,6 +83,14 @@ enableRobotsTXT = true
     icon = "home"
 
 [[menu.social]]
+  identifier = "homepage"
+  name = "Homepage"
+  url = "https://www.xiaotiandai.com"
+  weight = -100 # keep it leftmost; the rest fall back to name order
+  [menu.social.params]
+    icon = "world"
+
+[[menu.social]]
   identifier = "github"
   name = "GitHub"
   url = "https://github.com/automaticdai"
@@ -94,13 +103,6 @@ enableRobotsTXT = true
   url = "https://www.linkedin.com/in/xdai3"
   [menu.social.params]
     icon = "brand-linkedin"
-
-[[menu.social]]
-  identifier = "twitter"
-  name = "Twitter"
-  url = "https://twitter.com/StevenXDai"
-  [menu.social.params]
-    icon = "brand-twitter"
 
 [[menu.social]]
   identifier = "email"
