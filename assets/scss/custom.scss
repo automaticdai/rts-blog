@@ -1,0 +1,18 @@
+/* Project overrides. Imported last by the theme's style.scss, so plain
+   declarations here win over the theme's own. */
+
+/*  Global type scale.
+ *
+ *  Stack sizes every font in `rem` against a 10px root (`html` at 62.5%
+ *  in partials/base.scss), so changing the root alone rescales body text,
+ *  all headings, the sidebar and the widgets together and in proportion.
+ *
+ *    62.500%  = 10.0px root  (theme default; article text 16.0px)
+ *    56.250%  =  9.0px root  (10% smaller; article text 14.4px)  <- current
+ *    59.375%  =  9.5px root  (5% smaller)
+ *    53.125%  =  8.5px root  (15% smaller)
+ *
+ *  Adjust this one value to taste; nothing else needs to change. */
+html {
+    font-size: 56.25%;
+}
