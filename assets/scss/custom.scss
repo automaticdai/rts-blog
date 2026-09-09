@@ -16,3 +16,50 @@
 html {
     font-size: 56.25%;
 }
+
+
+/*  Left sidebar: larger type and wider gaps.
+ *
+ *  The reduced global root above suits the article column but leaves the
+ *  sidebar cramped, so scale it back up locally. Scoped to .left-sidebar
+ *  so the article and the right-hand widget column keep the smaller size.
+ *
+ *  These are plain (non-media) rules and custom.scss is imported last, so
+ *  they also override the theme's own @include respond(...) values and the
+ *  sidebar renders at one consistent size across breakpoints. */
+.left-sidebar {
+    /* gap between avatar, meta block, social row and menu */
+    --sidebar-element-separation: 32px;
+
+    header .site-meta {
+        gap: 16px; /* between site name and description */
+    }
+
+    header .site-name {
+        font-size: 2.3rem;
+        line-height: 1.25;
+    }
+
+    header .site-description {
+        font-size: 1.7rem;
+        line-height: 1.45;
+    }
+
+    .menu-social {
+        gap: 18px;
+
+        svg {
+            width: 28px;
+            height: 28px;
+        }
+    }
+
+    #main-menu {
+        font-size: 1.9rem;
+
+        &,
+        .menu-bottom-section ol {
+            gap: 28px;
+        }
+    }
+}
