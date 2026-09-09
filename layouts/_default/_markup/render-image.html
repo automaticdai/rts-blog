@@ -1,0 +1,9 @@
+{{- /* Resolve site-relative image paths against baseURL so they survive a
+       subpath deploy such as GitHub Pages (/rts-blog/). Hugo leaves markdown
+       image destinations verbatim, and relURL ignores a leading slash, so
+       strip it before resolving. External and data URLs pass through. */ -}}
+{{- $src := .Destination -}}
+{{- if not (or (hasPrefix $src "http://") (hasPrefix $src "https://") (hasPrefix $src "//") (hasPrefix $src "data:")) -}}
+	{{- $src = $src | strings.TrimPrefix "/" | relURL -}}
+{{- end -}}
+<img src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">

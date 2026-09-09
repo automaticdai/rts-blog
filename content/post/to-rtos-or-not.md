@@ -4,7 +4,7 @@ date: 2020-04-13T12:22:13+01:00
 description: "Explain the most asked real-time systems myth."
 draft: false
 
-thumbnail: "/img/cover-rtos.jpg" # Optional, thumbnail
+thumbnail: "img/cover-rtos.jpg" # Optional, thumbnail
 #lead: "Example lead - highlighted near the title"
 disable_comments: false # Optional, disable Disqus comments if true
 authorbox: true # Optional, enable authorbox for specific post
