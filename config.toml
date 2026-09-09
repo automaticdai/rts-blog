@@ -19,7 +19,6 @@ enableRobotsTXT = true
 
 [params]
   mainSections = ["post"]
-  featuredImageField = "image"
   rssFullContent = true
   favicon = "/favicon.ico"
 
@@ -65,14 +64,12 @@ enableRobotsTXT = true
 
   [params.opengraph.twitter]
     site = "StevenXDai"
-    card = "summary_large_image"
+    card = "summary"
 
   [params.colorScheme]
     toggle = true
     default = "auto"
 
-  [params.imageProcessing.cover]
-    enabled = true
   [params.imageProcessing.content]
     enabled = true
 

@@ -8,7 +8,6 @@ categories:
 tags:
   - "RTS 101"
 math: true
-image: "cover.jpg"
 ---
 
 On your first lecture in Embedded Systems, you will definitely hear the term ‘hard’ real-time and ‘soft’ real-time. Systems such as avionic systems, automobile engine control systems and cardiac pacemakers could be included in the category of hard real-time systems, while web servers, human-machine interfaces and multimedia systems are soft real-time systems. By intuition, we can infer that these hard real-time systems are more critical and important than the soft ones. But what is the really distinction between them?

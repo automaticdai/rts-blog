@@ -8,7 +8,6 @@ categories:
 tags:
   - "RTS 101"
   - "WCET"
-image: "cover.png"
 ---
 
 *Worst-case Execution Time (WCET)*, refers to the upper bound on the execution time of a piece of program. In hard real-time systems, where the timing requirement is stringent, WCET is needed for the purpose of validation to show that the scheduler can safely schedule the designed system even under extreme conditions.

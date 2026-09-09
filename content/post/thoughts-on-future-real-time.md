@@ -7,7 +7,6 @@ categories:
   - "Real-Time Systems"
 tags:
   - "Research"
-image: "cover.jpg"
 ---
 
 Have being working on real-time systems for almost four years since the beginning of my PhD, I have learnt a lot from the ground up about this research field. It is also becoming more and more clear to me what is this research really about. The most essential objective of real-time systems is to have timing guarantee, in which the tasks in the system, especially with hard real-time constraints, would meet their deadlines under any circumstances at execution time.

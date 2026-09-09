@@ -8,7 +8,6 @@ categories:
 tags:
   - "Design"
   - "RTOS"
-image: "cover.jpg"
 ---
 
 > *Should I use an RTOS in my project or not?*
