@@ -18,6 +18,8 @@ tags:
 
 > A collection of all research labs around the world that work on real-time and embedded systems (RTES).
 
+<!--more-->
+
 ## RTS Research Groups in Europe
 
 - [Real-Time and Distributed Systems Research Group](http://www.cs.york.ac.uk/rts/), University of York (York, UK)
