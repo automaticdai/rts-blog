@@ -7,12 +7,12 @@
  *  in partials/base.scss), so changing the root alone rescales body text,
  *  all headings, the sidebar and the widgets together and in proportion.
  *
- *    62.500%  = 10.0px root  (theme default; article text 16.0px)
- *    56.250%  =  9.0px root  (10% smaller; article text 14.4px)  <- current
- *    59.375%  =  9.5px root  (5% smaller)
- *    53.125%  =  8.5px root  (15% smaller)
+ *    62.500%  = 10.00px root  (theme default;   article text 16.0px)
+ *    56.250%  =  9.00px root  (10% smaller;     article text 14.4px)
+ *    50.625%  =  8.10px root  (19% smaller;     article text 13.0px)  <- current
+ *    45.563%  =  7.29px root  (27% smaller;     article text 11.7px)
  *
  *  Adjust this one value to taste; nothing else needs to change. */
 html {
-    font-size: 56.25%;
+    font-size: 50.625%;
 }
