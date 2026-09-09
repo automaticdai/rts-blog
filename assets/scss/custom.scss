@@ -63,3 +63,30 @@ html {
         }
     }
 }
+
+
+/*  Consistent article width when a page has no right sidebar.
+ *
+ *  Stack picks the container width in baseof.html from $hasWidget, which
+ *  inspects site config (.Site.Params.widgets) rather than the page. With
+ *  page widgets configured, every page therefore gets the wide `extended`
+ *  container - but the right sidebar is only emitted when the ToC widget
+ *  has something to show, which needs at least two headings. On the posts
+ *  with fewer, the rail is absent from the DOM and `main` (flex-grow: 1)
+ *  absorbed its space, so the reading measure jumped between pages.
+ *
+ *  Reserve the rail's slot instead. Using the theme's own
+ *  --right-sidebar-max-width and its gap keeps the measure identical to a
+ *  ToC page at every breakpoint, with no hardcoded widths.
+ *
+ *  Scoped to >=1024px to match the theme's own respond(lg), below which
+ *  the right sidebar is display:none and the article is meant to be full
+ *  width. */
+@media (min-width: 1024px) {
+    .main-container.extended:not(:has(.right-sidebar))::after {
+        content: "";
+        width: 100%;
+        max-width: var(--right-sidebar-max-width);
+        order: -1; /* same slot as .right-sidebar */
+    }
+}
