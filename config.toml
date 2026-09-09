@@ -49,8 +49,8 @@ disqusShortname = "xdaiblog" # Enable comments by entering your Disqus shortname
   #customJS = ["js/custom.js"] # Include custom JS files
 
 [Params.author]
-  name = "Dr. Xiaotian Dai"
-  bio = "Researcher in Real-time Systems. Department of Computer Science. University of York, UK."
+  name = "Dr Steven Xiaotian Dai"
+  bio = "Senior Lecturer in Real-Time Systems, Department of Computer Science, University of York, UK. Contact: [xiaotian.dai@york.ac.uk](mailto:xiaotian.dai@york.ac.uk)"
   avatar = "img/avatar.png"
 
 [Params.sidebar]
